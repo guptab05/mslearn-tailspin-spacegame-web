@@ -2,7 +2,7 @@ trigger:
 - '*'
 pool:
 #  vmImage: ubuntu-latest
- name: MyAgentPool
+ name: "Azure Pipeline" #MyAgentPool
 variables: 
   buildConfiguration: 'Release"'  
 steps:
